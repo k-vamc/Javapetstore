@@ -19,7 +19,7 @@
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
         username: alaric123
-        password: docker-PAT
+        password: dckr_pat_Txhp8pSoNlnXWLHKDclPgVck6uw
 
     - name: Push image
       command: docker push alaric123/petstore:latest
